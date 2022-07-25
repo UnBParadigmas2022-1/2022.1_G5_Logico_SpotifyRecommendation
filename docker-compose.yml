@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  generator:
+    build:
+      context: .
+      dockerfile: generator/Dockerfile
+    volumes:
+      - "./:/code/"
+    container_name: generator
