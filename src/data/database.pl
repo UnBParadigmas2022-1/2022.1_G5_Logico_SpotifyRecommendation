@@ -24,7 +24,7 @@ genre('Comedy').
 genre('Soul').
 genre('Soundtrack').
 genre('World').
-
+% genre, artist_name, track_name, popularity, danceability, duration_ms
 music('Movie', 'Henri Salvador', 'Cest beau de faire un Show', '0', '0.389', '99373').
 music('Movie', 'Martin  les fées', 'Perdu davance par Gad Elmaleh', '1', '0.59', '137373').
 music('Movie', 'Joseph Williams', 'Dont Let Me Be Lonely Tonight', '3', '0.663', '170267').
@@ -365,7 +365,7 @@ music('Alternative', 'Frank Ocean', 'Nights', '74', '0.466', '307151').
 music('Alternative', 'Frank Ocean', 'Thinkin Bout You', '70', '0.716', '200747').
 music('Alternative', 'Fountains Of Wayne', 'Stacys Mom', '72', '0.774', '197987').
 music('Alternative', 'X Ambassadors', 'Unsteady', '74', '0.389', '193547').
-music('Alternative', 'grandson', 'Blood  Water', '68', '0.504', '214520').
+music('Alternative', grandson, 'Blood  Water', '68', '0.504', '214520').
 music('Alternative', 'Masego', 'Tadow', '72', '0.704', '301893').
 music('Alternative', 'Weezer', 'Island In The Sun', '74', '0.654', '200307').
 music('Alternative', 'Frank Ocean', 'Ivy', '72', '0.567', '249191').
@@ -528,16 +528,16 @@ music('Country', 'Lorrie Morgan', 'Except for Monday', '42', '0.649', '175733').
 music('Dance', 'Ariana Grande', 'break up with your girlfriend im bored', '99', '0.726', '190440').
 music('Dance', 'Ariana Grande', '7 rings', '100', '0.725', '178640').
 music('Dance', 'Halsey', 'Without Me', '97', '0.752', '201661').
-music('Dance', 'Ariana Grande', 'needy', '92', '0.647', '171573').
+music('Dance', 'Ariana Grande', needy, '92', '0.647', '171573').
 music('Dance', 'Ariana Grande', 'NASA', '91', '0.747', '182000').
 music('Dance', 'Ariana Grande', 'thank u next', '95', '0.724', '207333').
-music('Dance', 'Ariana Grande', 'bloodline', '91', '0.758', '216893').
+music('Dance', 'Ariana Grande', bloodline, '91', '0.758', '216893').
 music('Dance', 'Ariana Grande', 'bad idea', '91', '0.847', '267107').
 music('Dance', 'benny blanco', 'Eastside with Halsey  Khalid', '91', '0.56', '173800').
 music('Dance', 'Ariana Grande', 'fake smile', '90', '0.45', '208880').
 music('Dance', 'Lauv', 'im so tired', '93', '0.599', '162583').
 music('Dance', 'Ava Max', 'Sweet but Psycho', '97', '0.719', '187436').
-music('Dance', 'Ariana Grande', 'imagine', '90', '0.729', '212267').
+music('Dance', 'Ariana Grande', imagine, '90', '0.729', '212267').
 music('Dance', 'Alec Benjamin', 'Let Me Down Slowly', '92', '0.652', '169354').
 music('Dance', 'Lady Gaga', 'Shallow', '95', '0.572', '215733').
 music('Dance', 'Ariana Grande', 'in my head', '88', '0.662', '222947').
@@ -550,7 +550,7 @@ music('Dance', 'Ariana Grande', 'no tears left to cry', '90', '0.699', '205920')
 music('Dance', 'DJ Snake', 'Taki Taki with Selena Gomez Ozuna  Cardi B', '96', '0.841', '212500').
 music('Dance', 'The Chainsmokers', 'This Feeling', '88', '0.575', '197947').
 music('Dance', 'Mark Ronson', 'Nothing Breaks Like a Heart feat Miley Cyrus', '92', '0.601', '217467').
-music('Dance', 'Ariana Grande', 'breathin', '87', '0.568', '198160').
+music('Dance', 'Ariana Grande', breathin, '87', '0.568', '198160').
 music('Dance', 'benny blanco', 'Roses with Juice WRLD feat Brendon Urie', '83', '0.613', '223543').
 music('Dance', 'Bazzi', 'Mine', '86', '0.71', '131064').
 music('Dance', 'Lauv', 'I Like Me Better', '87', '0.752', '197437').
@@ -603,7 +603,7 @@ music('Dance', 'Lennon Stella', 'La Di Da', '81', '0.689', '209773').
 music('Dance', 'Zedd', '365', '88', '0.745', '181900').
 music('Dance', 'Whitney Houston', 'I Wanna Dance with Somebody Who Loves Me', '82', '0.709', '291293').
 music('Dance', 'Taylor Swift', 'Delicate', '80', '0.75', '232253').
-music('Dance', 'Ariana Grande', 'sweetener', '79', '0.721', '208493').
+music('Dance', 'Ariana Grande', sweetener, '79', '0.721', '208493').
 music('Dance', 'Miguel', 'Sky Walker feat Travis Scott', '77', '0.674', '259333').
 music('Dance', 'Zara Larsson', 'Ruin My Life', '88', '0.665', '190932').
 music('Dance', 'Mark Ronson', 'Uptown Funk', '82', '0.856', '269667').
@@ -679,7 +679,7 @@ music('Electronic', 'Getter', 'Release', '62', '0.452', '232800').
 music('Electronic', 'Apashe', 'Majesty', '65', '0.559', '267750').
 music('Electronic', 'Dillon Francis', 'Lost My Mind', '66', '0.603', '261441').
 music('Electronic', 'DROELOE', 'Sunburn', '65', '0.693', '226981').
-music('Electronic', 'San Holo', 'selflove', '62', '0.547', '143775').
+music('Electronic', 'San Holo', selflove, '62', '0.547', '143775').
 music('Electronic', 'QUIX', 'Giving Up feat Jaden Michaels', '63', '0.484', '249987').
 music('Electronic', 'Big Gigantic', 'Good Times Roll', '59', '0.638', '243519').
 music('Electronic', 'Jamiroquai', 'Virtual Insanity  Remastered', '69', '0.662', '229360').
@@ -731,7 +731,7 @@ music('Anime', 'TK from Ling tosite sigure', 'Unravel', '65', '0.507', '238360')
 music('Anime', 'LiSA', 'Crossing Field', '58', '0.447', '248947').
 music('Anime', 'KANABOON', 'Silhouette', '65', '0.436', '240133').
 music('Anime', 'UVERworld', 'Odd Future', '60', '0.694', '225907').
-music('Anime', 'amazarashi', 'Sora Ni Utaeba', '60', '0.594', '217627').
+music('Anime', amazarashi, 'Sora Ni Utaeba', '60', '0.594', '217627').
 music('Anime', 'THE ORAL CIGARETTES', 'Kyouran Hey Kids', '62', '0.526', '250973').
 music('Anime', 'Cö Shu Nie', 'Asphyxia', '59', '0.253', '174780').
 music('Anime', 'Linked Horizon', 'Guren no Yumiya', '60', '0.455', '310680').
@@ -761,9 +761,9 @@ music('Anime', 'Hiroyuki Sawano', 'Attack on Titan', '55', '0.54', '256920').
 music('Anime', 'OxT', 'Clattanoia', '50', '0.48', '236187').
 music('Anime', 'Nightmare', 'the WORLD', '57', '0.531', '228120').
 music('Anime', 'RADWIMPS', 'Zenzenzense  movie ver', '56', '0.321', '285880').
-music('Anime', 'REOL', '宵々古今', '52', '0.46', '257733').
+music('Anime', 'REOL', 宵々古今, '52', '0.46', '257733').
 music('Anime', 'MYTH  ROID', 'LLL', '50', '0.558', '216187').
-music('Anime', 'KANABOON', 'ないものねだり', '57', '0.471', '262693').
+music('Anime', 'KANABOON', ないものねだり, '57', '0.471', '262693').
 music('Anime', 'Linked Horizon', 'Jiyuu no Tsubasa', '55', '0.373', '331947').
 music('Anime', 'ASCA', 'Resister', '54', '0.48', '227573').
 music('Anime', 'Hikaru Utada', 'Face My Fears  Japanese Version', '51', '0.626', '222013').
@@ -779,7 +779,7 @@ music('Anime', 'Mika Nakashima', 'Kiss of Death Produced by Hyde', '52', '0.539'
 music('Anime', 'Hiroyuki Sawano', 'You See Big Girl  TT', '53', '0.186', '359347').
 music('Anime', 'ASIAN KUNGFU GENERATION', 'Blood Circulator', '52', '0.384', '222827').
 music('Anime', 'REOL', 'LUVORATORRRRRY', '50', '0.679', '204187').
-music('Anime', 'REOL', 'コノヨLoading', '49', '0.754', '205787').
+music('Anime', 'REOL', コノヨLoading, '49', '0.754', '205787').
 music('Anime', 'MADKID', 'RISE', '55', '0.47', '206213').
 music('Anime', 'RADWIMPS', 'Dream lantern', '55', '0.206', '131667').
 music('Anime', 'MAN WITH A MISSION', 'Seven Deadly Sins', '51', '0.371', '207000').
@@ -811,7 +811,7 @@ music('Anime', 'Hiroyuki Sawano', 'Call Your Name', '50', '0.567', '268333').
 music('Anime', 'Joe Hisaishi', 'Spirited Away  One Summers Day', '53', '0.326', '292093').
 music('Anime', 'OxT', 'GO CRY GO', '44', '0.491', '219160').
 music('Anime', 'Hiroyuki Sawano', 'Call of Silence', '49', '0.504', '178213').
-music('Anime', 'Motohiro Hata', '透明だった世界', '51', '0.373', '232360').
+music('Anime', 'Motohiro Hata', 透明だった世界, '51', '0.373', '232360').
 music('Anime', 'EGOIST', 'Namae No Nai Kaibutsu', '44', '0.338', '317267').
 music('Anime', 'Eir Aoi', 'Iris', '50', '0.595', '247427').
 music('Anime', 'Kenshi Yonezu', 'Spirits of the Sea', '50', '0.511', '234184').
@@ -1181,7 +1181,7 @@ music('Hip-Hop', 'Kendrick Lamar', 'HUMBLE', '86', '0.908', '177000').
 music('Hip-Hop', 'Lil Baby', 'Never Recover Lil Baby  Gunna Drake', '84', '0.757', '194732').
 music('Hip-Hop', 'Comethazine', 'Walk', '82', '0.831', '96064').
 music('Hip-Hop', 'Logic', '18002738255', '84', '0.62', '250173').
-music('Hip-Hop', '21 Savage', 'monster', '85', '0.89', '233040').
+music('Hip-Hop', '21 Savage', monster, '85', '0.89', '233040').
 music('Hip-Hop', 'Metro Boomin', 'Dont Come Out The House with 21 Savage', '81', '0.87', '168347').
 music('Hip-Hop', '2 Chainz', 'Rule The World feat Ariana Grande', '80', '0.592', '245893').
 music('Hip-Hop', 'Russ', 'Missin You Crazy', '82', '0.716', '226693').
@@ -1363,9 +1363,9 @@ music('Rap', 'Kodak Black', 'Calling My Spirit', '85', '0.91', '152000').
 music('Rap', 'Lil Baby', 'Yes Indeed', '85', '0.964', '142273').
 music('Rap', 'Metro Boomin', 'Space Cadet feat Gunna', '87', '0.901', '203267').
 music('Rap', 'Lil Uzi Vert', 'XO TOUR Llif3', '86', '0.732', '182707').
-music('Rap', 'XXXTENTACION', 'changes', '88', '0.669', '121887').
+music('Rap', 'XXXTENTACION', changes, '88', '0.669', '121887').
 music('Rap', 'Blueface', 'Bleed It', '83', '0.845', '145520').
-music('Rap', 'Travis Scott', 'goosebumps', '86', '0.841', '243837').
+music('Rap', 'Travis Scott', goosebumps, '86', '0.841', '243837').
 music('Rap', '6ix9ine', 'KIKA feat Tory Lanez', '88', '0.745', '136032').
 music('Rap', 'Juice WRLD', 'Lean Wit Me', '84', '0.665', '175755').
 music('Rap', 'Offset', 'Ric Flair Drip  Metro Boomin', '86', '0.88', '172800').
@@ -1389,7 +1389,7 @@ music('Rap', 'Lil Uzi Vert', 'New Patek', '81', '0.85', '343099').
 music('Rap', 'Juice WRLD', 'Make Believe', '74', '0.722', '142026').
 music('Rap', 'Ski Mask The Slump God', 'Nuketown feat Juice WRLD', '85', '0.808', '166400').
 music('Rap', 'Lil Mosey', 'Kamikaze', '83', '0.792', '139200').
-music('Rap', '21 Savage', 'monster', '85', '0.89', '233040').
+music('Rap', '21 Savage', monster, '85', '0.89', '233040').
 music('Rap', 'Juice WRLD', 'HeMotions', '73', '0.577', '187211').
 music('Rap', 'Ski Mask The Slump God', 'Faucet Failure', '85', '0.935', '145627').
 music('Rap', 'Future', 'Fine China', '85', '0.656', '141587').
@@ -1440,7 +1440,7 @@ music('Indie', 'James Blake', 'Mile High feat Travis Scott  Metro Boomin', '79',
 music('Indie', 'Vance Joy', 'Riptide', '78', '0.484', '204280').
 music('Indie', 'Halsey', 'Without Me with Juice WRLD', '81', '0.742', '228816').
 music('Indie', 'Foster The People', 'Pumped Up Kicks', '83', '0.733', '239600').
-music('Indie', 'lovelytheband', 'broken', '78', '0.666', '204878').
+music('Indie', lovelytheband, broken, '78', '0.666', '204878').
 music('Indie', 'Peter Manos', 'In My Head', '80', '0.499', '214533').
 music('Indie', 'GEazy', 'Him  I with Halsey', '82', '0.589', '268867').
 music('Indie', 'WALK THE MOON', 'Shut Up and Dance', '80', '0.578', '199080').
@@ -1458,7 +1458,7 @@ music('Indie', 'GEazy', 'No Limit', '78', '0.838', '245387').
 music('Indie', 'Louis The Child', 'Better Not with Wafia', '75', '0.783', '222866').
 music('Indie', 'Two Feet', 'Go Fuck Yourself', '80', '0.765', '129600').
 music('Indie', 'The Lumineers', 'Ho Hey', '70', '0.685', '163133').
-music('Indie', 'altJ', 'Breezeblocks', '71', '0.616', '227080').
+music('Indie', altJ, 'Breezeblocks', '71', '0.616', '227080').
 music('Indie', 'Ruth B', 'Lost Boy', '78', '0.71', '275280').
 music('Indie', 'Pink Sweat', 'Honesty', '77', '0.616', '191000').
 music('Indie', 'MGMT', 'Electric Feel', '77', '0.763', '229640').
@@ -1510,7 +1510,7 @@ music('Indie', 'The Paper Kites', 'Bloom  Bonus Track', '74', '0.592', '210080')
 music('Indie', 'Tom Walker', 'Just You and I', '80', '0.567', '174983').
 music('Indie', 'Rex Orange County', 'Television  So Far So Good', '72', '0.405', '262600').
 music('Indie', 'Young the Giant', 'Cough Syrup', '71', '0.534', '249520').
-music('Indie', 'ayokay', 'Stay With Me', '74', '0.695', '189787').
+music('Indie', ayokay, 'Stay With Me', '74', '0.695', '189787').
 music('Indie', 'Ruel', 'Dazed  Confused', '77', '0.688', '189608').
 music('Indie', 'Houndmouth', 'Sedona', '69', '0.396', '239880').
 music('Indie', 'AWOLNATION', 'Sail', '74', '0.825', '259102').
@@ -1634,18 +1634,18 @@ music('Pop', 'Travis Scott', 'SICKO MODE', '94', '0.834', '312820').
 music('Pop', 'Halsey', 'Without Me', '97', '0.752', '201661').
 music('Pop', 'Khalid', 'Talk', '94', '0.9', '197487').
 music('Pop', 'Sam Smith', 'Dancing With A Stranger with Normani', '97', '0.741', '171030').
-music('Pop', 'Ariana Grande', 'needy', '92', '0.647', '171573').
+music('Pop', 'Ariana Grande', needy, '92', '0.647', '171573').
 music('Pop', 'Marshmello', 'Happier', '97', '0.687', '214290').
 music('Pop', 'Ariana Grande', 'NASA', '91', '0.747', '182000').
 music('Pop', 'Ariana Grande', 'thank u next', '95', '0.724', '207333').
 music('Pop', 'Khalid', 'Better', '88', '0.596', '229320').
 music('Pop', 'Jonas Brothers', 'Sucker', '94', '0.846', '181040').
-music('Pop', 'Ariana Grande', 'bloodline', '91', '0.758', '216893').
+music('Pop', 'Ariana Grande', bloodline, '91', '0.758', '216893').
 music('Pop', 'Ariana Grande', 'bad idea', '91', '0.847', '267107').
 music('Pop', 'Lauv', 'im so tired', '94', '0.599', '162583').
 music('Pop', 'Ariana Grande', 'fake smile', '90', '0.45', '208880').
 music('Pop', 'Post Malone', 'Better Now', '93', '0.68', '231267').
-music('Pop', 'Ariana Grande', 'imagine', '90', '0.729', '212267').
+music('Pop', 'Ariana Grande', imagine, '90', '0.729', '212267').
 music('Pop', '21 Savage', 'a lot', '93', '0.837', '288624').
 music('Pop', 'Meek Mill', 'Going Bad feat Drake', '95', '0.889', '180522').
 music('Pop', 'benny blanco', 'Eastside with Halsey  Khalid', '91', '0.56', '173800').
@@ -1663,7 +1663,7 @@ music('Pop', 'Dean Lewis', 'Be Alright', '92', '0.553', '196373').
 music('Pop', 'Ariana Grande', 'make up', '87', '0.671', '140693').
 music('Pop', 'Panic At The Disco', 'High Hopes', '95', '0.579', '190947').
 music('Pop', 'Bazzi', 'Beautiful feat Camila Cabello', '89', '0.638', '180000').
-music('Pop', 'Billie Eilish', 'idontwannabeyouanymore', '89', '0.483', '203569').
+music('Pop', 'Billie Eilish', idontwannabeyouanymore, '89', '0.483', '203569').
 music('Pop', 'Post Malone', 'I Fall Apart', '88', '0.556', '223347').
 music('Pop', 'Cardi B', 'I Like It', '90', '0.816', '253390').
 music('Pop', 'Ariana Grande', 'no tears left to cry', '90', '0.699', '205920').
@@ -1673,11 +1673,11 @@ music('Pop', 'Lady Gaga', 'Shallow  Radio Edit', '90', '0.575', '217213').
 music('Pop', 'Metro Boomin', 'Space Cadet feat Gunna', '87', '0.901', '203267').
 music('Pop', 'Sheck Wes', 'Mo Bamba', '92', '0.729', '183907').
 music('Pop', 'Khalid', 'Saturday Nights', '87', '0.54', '209547').
-music('Pop', 'Travis Scott', 'goosebumps', '86', '0.841', '243837').
+music('Pop', 'Travis Scott', goosebumps, '86', '0.841', '243837').
 music('Pop', 'DJ Snake', 'Taki Taki with Selena Gomez Ozuna  Cardi B', '96', '0.841', '212500').
 music('Pop', 'Billie Eilish', 'wish you were gay', '87', '0.853', '221543').
 music('Pop', 'Khalid', 'Young Dumb  Broke', '86', '0.798', '202547').
-music('Pop', 'Ariana Grande', 'breathin', '87', '0.568', '198160').
+music('Pop', 'Ariana Grande', breathin, '87', '0.568', '198160').
 music('Pop', 'Khalid', 'Love Lies with Normani', '86', '0.708', '201707').
 music('Pop', 'Bazzi', 'Mine', '86', '0.71', '131064').
 music('Pop', 'Offset', 'Ric Flair Drip  Metro Boomin', '86', '0.88', '172800').
@@ -1697,7 +1697,7 @@ music('Pop', 'Travis Scott', 'STARGAZING', '84', '0.487', '270715').
 music('Pop', 'Khalid', 'My Bad', '78', '0.645', '166101').
 music('Pop', 'Khalid', 'Location', '84', '0.736', '219080').
 music('Pop', 'Kehlani', 'Nights Like This feat Ty Dolla ign', '85', '0.61', '201788').
-music('Pop', 'Billie Eilish', 'bellyache', '87', '0.695', '179172').
+music('Pop', 'Billie Eilish', bellyache, '87', '0.695', '179172').
 music('Pop', 'Pedro Capó', 'Calma  Remix', '97', '0.826', '238200').
 music('Pop', 'benny blanco', 'I Cant Get Enough benny blanco Selena Gomez J Balvin Tainy', '88', '0.541', '158027').
 music('Pop', 'Mark Ronson', 'Nothing Breaks Like a Heart feat Miley Cyrus', '92', '0.601', '217467').
@@ -1984,7 +1984,7 @@ music('Jazz', 'Flughand', 'Feblu', '64', '0.769', '93635').
 music('Jazz', 'Kelsea Ballerini', 'Dibs', '60', '0.638', '183947').
 music('Jazz', 'Norah Jones', 'Sunrise', '70', '0.526', '200627').
 music('Jazz', 'Karin Hammar', 'Uphill', '61', '0.427', '241200').
-music('Jazz', 'digitalluc', '003', '62', '0.691', '139521').
+music('Jazz', digitalluc, '003', '62', '0.691', '139521').
 music('Jazz', 'Paolo Fresu', 'The Silence of Your Heart', '62', '0.439', '261415').
 music('Jazz', 'Gene Ammons', 'My Romance', '55', '0.464', '254027').
 music('Jazz', 'KLIM', 'Water World', '57', '0.53', '110236').
@@ -2554,7 +2554,7 @@ music('World', 'North Point InsideOut', 'Death Was Arrested', '62', '0.306', '29
 music('World', 'Elevation Worship', 'Resurrecting Live', '66', '0.403', '467053').
 music('World', 'Hillsong Worship', 'New Wine  Live', '62', '0.377', '490000').
 music('World', 'Brian Eno', 'Drift  Remastered 2005', '64', '0.255', '189467').
-music('World', 'for KING  COUNTRY', 'joy', '67', '0.68', '233947').
+music('World', 'for KING  COUNTRY', joy, '67', '0.68', '233947').
 music('World', 'Pat Barrett', 'Build My Life', '62', '0.431', '244893').
 music('World', 'Phil Wickham', 'Till I Found You', '65', '0.373', '240280').
 music('World', 'Matt Maher', 'Lord I Need You', '67', '0.457', '205667').
@@ -2726,7 +2726,7 @@ artist('Darell').
 artist('Elvin Bishop').
 artist('Anthony Jeselnik').
 artist('Louis The Child').
-artist('amazarashi').
+artist(amazarashi).
 artist('Julieta Venegas').
 artist('KONGOS').
 artist('Brian Posehn').
@@ -2854,7 +2854,7 @@ artist('Ken Page').
 artist('Radiohead').
 artist('KANABOON').
 artist('Vickeblanka').
-artist('lovelytheband').
+artist(lovelytheband).
 artist('Gioachino Rossini').
 artist('Peter Hollens').
 artist('Giovanni Porta').
@@ -3131,7 +3131,7 @@ artist('The Animals').
 artist('Stick Figure').
 artist('Rich The Kid').
 artist('Steve Lacy').
-artist('ayokay').
+artist(ayokay).
 artist('Carly Simon').
 artist('Streetlight Manifesto').
 artist('Iration').
@@ -3517,7 +3517,7 @@ artist('Aretha Franklin').
 artist('Juice Music').
 artist('Hello Sleepwalkers').
 artist('The Japanese House').
-artist('altJ').
+artist(altJ).
 artist('Goldfinger').
 artist('PARTYNEXTDOOR').
 artist('Mura Masa').
@@ -3588,7 +3588,7 @@ artist('Marie Ruggieri').
 artist('Duckwrth').
 artist('Hollow Coves').
 artist('Joseph Williams').
-artist('digitalluc').
+artist(digitalluc).
 artist('Mika Nakashima').
 artist('The Marvelettes').
 artist('Alex  Sierra').
@@ -3619,7 +3619,7 @@ artist('Disturbed').
 artist('Chevelle').
 artist('John Legend').
 artist('Bobby Bare').
-artist('grandson').
+artist(grandson).
 artist('EGOIST').
 artist('KALEO').
 artist('Playboi Carti').
@@ -3679,4 +3679,3 @@ artist('Zac Brown Band').
 artist('SZA').
 artist('Natasha Bedingfield').
 artist('Beach House').
-
