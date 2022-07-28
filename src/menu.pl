@@ -1,4 +1,5 @@
 :- [funcs].
+:- [recommendations].
 
 
 music_recommendation :-
@@ -26,7 +27,7 @@ music_recommendation :-
              "2":artist,
              "3":danceability,
              "4":duration,
-             "5":genre,
+             "5":recommend_by_genre,
              "6":popularity,
              "0":exit
            ],
