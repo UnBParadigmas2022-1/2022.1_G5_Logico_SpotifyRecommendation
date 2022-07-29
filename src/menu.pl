@@ -28,7 +28,7 @@ music_recommendation :-
              "3":danceability,
              "4":duration,
              "5":recommend_by_genre,
-             "6":popularity,
+             "6":recommend_by_popularity,
              "0":exit
            ],
            music_recommendation).
