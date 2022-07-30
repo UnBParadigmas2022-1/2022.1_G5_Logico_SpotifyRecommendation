@@ -1,6 +1,7 @@
 :- [funcs].
 :- [recommendations].
 
+start:- music_recommendation.
 
 music_recommendation :-
     clear,
@@ -24,7 +25,7 @@ music_recommendation :-
     switch(Option,
            
            [ "1":random,
-             "2":artist,
+             "2":recommend_by_artist,
              "3":danceability,
              "4":duration,
              "5":recommend_by_genre,
