@@ -13,7 +13,7 @@ append_track([A|B], D) :-
 
 
 menu_recommend_by_genre :-
-    new(Dialog, dialog('Define employee')),
+    new(Dialog, dialog('Recomendacao por Genero')),
  send_list(Dialog, append,
  [ new(N1, text_item(genero)),
     button(cancel, message(Dialog, destroy)),
