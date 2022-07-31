@@ -3,13 +3,13 @@
 :- use_module(library(pce)).
 :- [src/funcs].
 :- [src/recommendation/genre].
+:- [src/recommendation/artist].
 :- [src/recommendation/popularity].
 
 
 solve(D, Row, Column) :-
     writeln(solve(D, Row, Column)).
 
-start:- music_recommendation.
 
 music_recommendation :-
     new(Dialog, dialog('Escolha uma opcao para recomendacao')),
