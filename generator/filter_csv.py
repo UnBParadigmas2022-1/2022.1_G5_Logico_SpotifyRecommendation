@@ -4,12 +4,12 @@ from alive_progress import alive_bar
 
 # create data file
 print("Creating database pl file.")
-file = open("../src/data/database.pl", "w")
+file = open("./src/data/database.pl", "w")
 print("Database file created!")
 
 # read csv with music data
 print("Loading csv data file.")
-df = pd.read_csv("../generator/data.csv")
+df = pd.read_csv("./generator/data.csv")
 print("Csv data file loaded!")
 
 # separate musics dataframe by genders
@@ -44,7 +44,7 @@ with alive_bar(len(genres), title="Creating musics database.") as bar:
                 duration_ms=music.get("duration_ms")
             )
             artists.append(music_dict.get("artist_name"))
-            file.write(f"music('{genre}', '{music_dict.get('artist_name')}', '{music_dict.get('track_name')}', '{music_dict.get('popularity')}', '{music_dict.get('danceability')}', '{music_dict.get('duration_ms')}').\n")
+            file.write(f"music('{genre}', '{music_dict.get('artist_name')}', '{music_dict.get('track_name')}', {music_dict.get('popularity')}, {music_dict.get('danceability')}, {music_dict.get('duration_ms')}).\n")
         bar()
         
 file.write("\n")
