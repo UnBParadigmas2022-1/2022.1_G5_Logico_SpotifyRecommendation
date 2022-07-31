@@ -11,17 +11,19 @@ append_track([A|B], D) :-
     send(D, append, text(A)),
     append_track(B, D).
 
-
 menu_recommend_by_genre :-
     new(Dialog, dialog('Recomendacao por Genero')),
  send_list(Dialog, append,
- [ new(N1, text_item(genero)),
+ [ new(N1, menu(genero, cycle)),
     button(cancel, message(Dialog, destroy)),
     button(enter, and(message(@prolog,
     recommend_by_genre,
     N1?selection),
     message(Dialog, destroy)))
  ]),
+
+ forall(genre(G), send_list(N1, append, G)),
+
  send(Dialog, open).
 
 
