@@ -9,3 +9,10 @@ switch(X, [Val:Goal|Cases], ReturnTo) :-
     ).
 
 exit:- write('Encerrado'),nl, halt(0).
+
+% remove_dups(+List, -NewList): % New List isbound to List, but with duplicate items removed.
+remove_dups([], []).
+
+remove_dups([First | Rest], NewRest) :- member(First, Rest), remove_dups(Rest, NewRest).
+
+remove_dups([First | Rest], [First | NewRest]) :- not(member(First, Rest)), remove_dups(Rest, NewRest).
