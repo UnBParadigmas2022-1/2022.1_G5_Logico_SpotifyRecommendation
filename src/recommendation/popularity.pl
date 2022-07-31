@@ -35,7 +35,7 @@ recommend_by_popularity :-
     reverse(ParsedTracks, ReversedTracks),
   
     % get the X firsts elements of list
-    sublist(ReversedTracks,0,10,TopTracks),
+    sublist(ReversedTracks,0,35,TopTracks),
 
     % append track to interface
     append_track(TopTracks, D),
