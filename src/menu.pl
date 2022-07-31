@@ -7,6 +7,7 @@
 :- [src/recommendation/popularity].
 :- [src/recommendation/danceability].
 :- [src/recommendation/aleatory].
+:- [src/recommendation/general].
 
 
 solve(D, Row, Column) :-
