@@ -5,17 +5,17 @@
 **Paradigma**: Logico<br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| 180041592  |  Denys Rogeres Leles dos Santos |
-| 180113259  |  Felipe Correia Andrade |
-| 180103580  |  Jonathan Jorge Barbosa Oliveira|
-| 180125885  |  Lucas Melo dos Santos |
-| 180127535  |  Mateus Brandao Teixeira |
-| 180106821  |  Mateus Gomes do Nascimento |
-| 180127641  |  Matheus Afonso de Souza |
-| 180138545  |  Thiago Mesquita Peres Nunes de Carvalho |
-| 180132245  |  Vinicius de Sousa Saturnino |
+|Matrícula | Aluno | Github |
+| -- | -- | -- |
+| 180041592  |  Denys Rogeres Leles dos Santos | [@andrelucasf](https://github.com/andrelucasf) |
+| 180113259  |  Felipe Correia Andrade | [@Percon12](https://github.com/Percon12) |
+| 180103580  |  Jonathan Jorge Barbosa Oliveira|  [@Jonathan-Oliveira](https://github.com/Jonathan-Oliveira) |
+| 180125885  |  Lucas Melo dos Santos | [@luucas-melo](https://github.com/luucas-melo) |
+| 180127535  |  Mateus Brandao Teixeira | [@mateusbrandaot](https://github.com/mateusbrandaot) |
+| 180106821  |  Mateus Gomes do Nascimento | [@matgomes21](https://github.com/matgomes21) |
+| 180127641  |  Matheus Afonso de Souza | [@Matheusafonsouza](https://github.com/Matheusafonsouza) |
+| 180138545  |  Thiago Mesquita Peres Nunes de Carvalho | [@thiagompc](https://github.com/thiagompc) |
+| 180132245  |  Vinicius de Sousa Saturnino | [@viniciussaturnino](https://github.com/viniciussaturnino) |
 
 ## Sobre 
 Esse é um projeto focado na funcionalidade de recomendação de músicas para usuários de acordo com suas preferências. No projeto foi utilizada uma base de dados pública filtrada com informações sobre músicas, artistas e etc.
