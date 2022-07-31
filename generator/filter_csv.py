@@ -4,12 +4,12 @@ from alive_progress import alive_bar
 
 # create data file
 print("Creating database pl file.")
-file = open("../src/data/database.pl", "w")
+file = open("./src/data/database.pl", "w")
 print("Database file created!")
 
 # read csv with music data
 print("Loading csv data file.")
-df = pd.read_csv("../generator/data.csv")
+df = pd.read_csv("./generator/data.csv")
 print("Csv data file loaded!")
 
 # separate musics dataframe by genders
