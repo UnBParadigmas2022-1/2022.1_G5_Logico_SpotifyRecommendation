@@ -4,6 +4,7 @@
 :- [src/funcs].
 :- [src/recommendation/genre].
 :- [src/recommendation/popularity].
+:- [src/recommendation/danceability].
 
 
 solve(D, Row, Column) :-
@@ -44,7 +45,7 @@ music_recommendation :-
 
         [ 'Aleatorio':random,
             'Artista':menu_recommend_by_artist,
-            'Dançabilidade':danceability,
+            'Dançabilidade':recommend_by_danceability,
             'Duracao':duration,
             'Genero':menu_recommend_by_genre,
             'Popularidade':recommend_by_popularity
