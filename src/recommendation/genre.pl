@@ -1,4 +1,4 @@
-use_module(library(readutil)).
+:- use_module(library(readutil)).
 :- [src/data/database].
 :- [src/funcs].
 
@@ -21,9 +21,7 @@ menu_recommend_by_genre :-
     N1?selection),
     message(Dialog, destroy)))
  ]),
-
  forall(genre(G), send_list(N1, append, G)),
-
  send(Dialog, open).
 
 

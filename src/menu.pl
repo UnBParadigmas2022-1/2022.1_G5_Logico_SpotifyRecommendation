@@ -9,6 +9,7 @@
 solve(D, Row, Column) :-
     writeln(solve(D, Row, Column)).
 
+start:- music_recommendation.
 
 music_recommendation :-
     new(Dialog, dialog('Escolha uma opcao para recomendacao')),
@@ -34,7 +35,6 @@ music_recommendation :-
                 'Genero',
                 'Popularidade'
               ]),
-    send_list(D, append, [research, development, marketing]),
     send(Dialog, default_button, enter),
     send(Dialog, open).
 
@@ -43,7 +43,7 @@ music_recommendation :-
     switch(Option,
 
         [ 'Aleatorio':random,
-            'Artista':artist,
+            'Artista':menu_recommend_by_artist,
             'Dançabilidade':danceability,
             'Duracao':duration,
             'Genero':menu_recommend_by_genre,
