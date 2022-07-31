@@ -44,7 +44,7 @@ with alive_bar(len(genres), title="Creating musics database.") as bar:
                 duration_ms=music.get("duration_ms")
             )
             artists.append(music_dict.get("artist_name"))
-            file.write(f"music('{genre}', '{music_dict.get('artist_name')}', '{music_dict.get('track_name')}', '{music_dict.get('popularity')}', '{music_dict.get('danceability')}', '{music_dict.get('duration_ms')}').\n")
+            file.write(f"music('{genre}', '{music_dict.get('artist_name')}', '{music_dict.get('track_name')}', {music_dict.get('popularity')}, {music_dict.get('danceability')}, {music_dict.get('duration_ms')}).\n")
         bar()
         
 file.write("\n")
