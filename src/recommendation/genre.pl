@@ -1,6 +1,6 @@
-use_module(library(readutil)).
-:- [data/database].
-:- [funcs].
+:- use_module(library(readutil)).
+:- [src/data/database].
+:- [src/funcs].
 
 :- (dynamic music/6, genre/1).
 
@@ -21,9 +21,7 @@ menu_recommend_by_genre :-
     N1?selection),
     message(Dialog, destroy)))
  ]),
-
  forall(genre(G), send_list(N1, append, G)),
-
  send(Dialog, open).
 
 
