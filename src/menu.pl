@@ -6,6 +6,7 @@
 :- [src/recommendation/artist].
 :- [src/recommendation/popularity].
 :- [src/recommendation/danceability].
+:- [src/recommendation/aleatory].
 
 
 solve(D, Row, Column) :-
@@ -43,7 +44,7 @@ music_recommendation :-
     write(Option),
     switch(Option,
 
-        [ 'Aleatorio':random,
+        [ 'Aleatorio':recommend_by_aleatority,
             'Artista':menu_recommend_by_artist,
             'Dançabilidade':recommend_by_danceability,
             'Duracao':duration,
