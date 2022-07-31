@@ -1,6 +1,6 @@
 use_module(library(readutil)).
-:- [data/database].
-:- [funcs].
+:- [src/data/database].
+:- [src/funcs].
 
 :- (dynamic music/6, genre/1).
 

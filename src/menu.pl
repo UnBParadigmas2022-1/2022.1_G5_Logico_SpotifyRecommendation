@@ -1,8 +1,9 @@
 :- use_module(library(tabular)).
 :- use_module(library(autowin)).
 :- use_module(library(pce)).
-:- [funcs].
-:- [recommendation/genre].
+:- [src/funcs].
+:- [src/recommendation/genre].
+:- [src/recommendation/popularity].
 
 
 solve(D, Row, Column) :-
@@ -46,5 +47,5 @@ music_recommendation :-
             'Dançabilidade':danceability,
             'Duracao':duration,
             'Genero':menu_recommend_by_genre,
-            'Popularidade':popularity
+            'Popularidade':recommend_by_popularity
         ], music_recommendation).
