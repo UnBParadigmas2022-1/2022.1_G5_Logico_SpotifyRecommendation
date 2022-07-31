@@ -43,7 +43,6 @@ music_recommendation :-
     new(Dialog, dialog('Escolha uma opcao para recomendacao')),
     send_list(Dialog,
               append,
-
               [
                 new(S, new(S, menu(recomendacao))),
                 button(cancel, message(Dialog, destroy)),
@@ -76,6 +75,6 @@ music_recommendation :-
             'Artista':artist,
             'Dançabilidade':danceability,
             'Duracao':duration,
-            'Genero':recommend_by_genre,
+            'Genero':menu_recommend_by_genre,
             'Popularidade':popularity
         ], music_recommendation).
