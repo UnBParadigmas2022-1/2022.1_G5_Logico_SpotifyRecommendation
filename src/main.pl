@@ -1,3 +1,4 @@
 :- [src/menu].
 
-start:- music_recommendation.
+start :-
+    music_recommendation.

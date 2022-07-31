@@ -2,12 +2,6 @@ use_module(library(readutil)).
 :- [src/data/database].
 :- [src/funcs].
 
-append_track([], D).
-append_track([A|B], D) :-
-    % appenda nome da track que esta na lista
-    send(D, append, text(A)),
-    append_track(B, D).
-
 
 recommend_by_popularity :-
     new(D, dialog('Recomendacoes')),
@@ -33,10 +27,10 @@ recommend_by_popularity :-
 
     % reverse list to get the descendent sort
     reverse(ParsedTracks, ReversedTracks),
-  
+
     % get the X firsts elements of list
-    sublist(ReversedTracks,0,35,TopTracks),
+    sublist(ReversedTracks, 0, 35, TopTracks),
 
     % append track to interface
-    append_track(TopTracks, D),
+    append_text_dialog(TopTracks, D),
     send(D, open).
