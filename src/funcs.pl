@@ -30,7 +30,7 @@ remove_dups([First|Rest], [First|NewRest]) :-
 sublist(L, M, N, S) :-
     findall(E, (nth1(I, L, E), I >= M, I =< N), S).
 
-% appenda text to dialog
+% append text to dialog
 append_text_dialog([], D).
 append_text_dialog([A|B], D) :-
     send(D, append, text(A)),

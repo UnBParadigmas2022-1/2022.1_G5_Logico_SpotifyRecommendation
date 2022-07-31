@@ -34,9 +34,9 @@ music_recommendation :-
               [ 'Aleatorio',
                 'Artista',
                 'Dançabilidade',
-                'Duracao',
                 'Genero',
-                'Popularidade'
+                'Popularidade',
+                'Geral'
               ]),
     send(Dialog, default_button, enter),
     send(Dialog, open).
@@ -48,7 +48,7 @@ music_recommendation :-
         [ 'Aleatorio':recommend_by_aleatority,
             'Artista':menu_recommend_by_artist,
             'Dançabilidade':recommend_by_danceability,
-            'Duracao':duration,
             'Genero':menu_recommend_by_genre,
-            'Popularidade':recommend_by_popularity
+            'Popularidade':recommend_by_popularity,
+            'Geral':menu_general_recommend
         ], music_recommendation).
