@@ -2,7 +2,7 @@
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T01 <br>
 **Nro do Grupo**: 05<br>
-**Paradigma**: Logico<br>
+**Paradigma**: Lógico<br>
 
 ## Alunos
 |Matrícula | Aluno | Github |
@@ -55,14 +55,8 @@ Após escolher a recomendação desejada, basta clicar no botão "Enter" e uma r
 ![lista_recomendacao](src/images/lista_recomendacao.jpeg) <br>
 
 ## Vídeo
-Adicione 1 ou mais vídeos com a execução do projeto.
-Procure: 
-(i) Introduzir o projeto;
-(ii) Mostrar passo a passo o código, explicando-o, e deixando claro o que é de terceiros, e o que é contribuição real da equipe;
-(iii) Apresentar particularidades do Paradigma, da Linguagem, e das Tecnologias, e
-(iV) Apresentar lições aprendidas, contribuições, pendências, e ideias para trabalhos futuros.
-OBS: TODOS DEVEM PARTICIPAR, CONFERINDO PONTOS DE VISTA.
-TEMPO: +/- 15min
+[![Apresentacao](https://img.youtube.com/vi/x2oa-ozaf7U)](https://youtu.be/x2oa-ozaf7U)<br>
+[Link vídeo](https://youtu.be/x2oa-ozaf7U)
 
 ## Participações
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
@@ -78,12 +72,12 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | Thiago Mesquita Peres Nunes de Carvalho  | Implementação das recomendações por popularidade, dançabilidade, geral e por duração, e criação de funções úteis para o projeto. | Excelente |
 | Vinicius de Sousa Saturnino  | Criação do script para extração e filtragem dos dados no arquivo csv e montagem do arquivo prolog com a base usada no projeto. Implementação da recomendação por aleatoriedade  | Excelente |
 
-## Outros 
-Quaisquer outras informações sobre o projeto podem ser descritas aqui.
-(i) Lições Aprendidas;
-(ii) Percepções;
-(iii) Contribuições e Fragilidades, e
-(iV) Trabalhos Futuros.
+## Melhorias
+Melhorias que poderiam ser implementadas:
+- Cadastrar usuário e recomendar pelo seu histórico 
+- Exportar músicas selecionadas
+- Adicionar mais informações sobre a música na interface
+- Melhorar a interface (mudar cor, tamanho mínimo da tela, etc)
 
 ## Fontes
 - Fonte da base de dados utilizada https://www.kaggle.com/datasets/zaheenhamidani/ultimate-spotify-tracks-db
