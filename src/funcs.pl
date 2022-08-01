@@ -1,6 +1,17 @@
 clear :-
     write('\033\[H\033\[2J').
 
+switch(_, [], ReturnTo) :-
+    write('Opção inválida'),
+    nl,
+    call(ReturnTo).
+switch(X, [Val:Goal|Cases], ReturnTo) :-
+    (   X==Val
+    ->  call(Goal),
+        call(ReturnTo)
+    ;   switch(X, Cases, ReturnTo)
+    ).
+
 exit :-
     write('Encerrado'),
     nl,

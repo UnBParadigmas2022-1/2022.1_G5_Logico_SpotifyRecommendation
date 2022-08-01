@@ -1,4 +1,3 @@
-:- use_module(library(tabular)).
 :- use_module(library(autowin)).
 :- use_module(library(pce)).
 :- [src/funcs].
@@ -8,10 +7,6 @@
 :- [src/recommendation/danceability].
 :- [src/recommendation/aleatory].
 :- [src/recommendation/general].
-
-
-solve(D, Row, Column) :-
-    writeln(solve(D, Row, Column)).
 
 
 music_recommendation :-
