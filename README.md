@@ -71,7 +71,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | Denys Rogeres Leles dos Santos  |   |  |
 | Felipe Correia Andrade  |   |   |
 | Jonathan Jorge Barbosa Oliveira  | Implementação das recomendações por artistas e geral | Excelente |
-| Lucas Melo dos Santos  |   |  |
+| Lucas Melo dos Santos  |Implementação de interface gráfica, recomendações por genero, recomendação geral e funções uteis para inserir conteúdo na interface    | Excelente |
 | Mateus Brandao Teixeira  |   |  |
 | Mateus Gomes do Nascimento  | Implementação das recomendações por popularidade, dançabilidade, geral e por duração, e criação de funções úteis para o projeto. | Excelente |
 | Matheus Afonso de Souza  | Criação do script para extração e filtragem dos dados no arquivo csv e montagem do arquivo prolog com a base usada no projeto. Implementação da recomendação por aleatoriedade  | Excelente |
