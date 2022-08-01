@@ -68,7 +68,15 @@ TEMPO: +/- 15min
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
-| Fulano  |  Programação dos Fatos da Base de Conhecimento Lógica | Boa |
+| Denys Rogeres Leles dos Santos  |   |  |
+| Felipe Correia Andrade  |   |   |
+| Jonathan Jorge Barbosa Oliveira  | Implementação das recomendações por artistas e geral | Excelente |
+| Lucas Melo dos Santos  |   |  |
+| Mateus Brandao Teixeira  |   |  |
+| Mateus Gomes do Nascimento  | Implementação das recomendações por popularidade, dançabilidade, geral e por duração, e criação de funções úteis para o projeto. | Excelente |
+| Matheus Afonso de Souza  | Criação do script para extração e filtragem dos dados no arquivo csv e montagem do arquivo prolog com a base usada no projeto. Implementação da recomendação por aleatoriedade  | Excelente |
+| Thiago Mesquita Peres Nunes de Carvalho  | Implementação das recomendações por popularidade, dançabilidade, geral e por duração, e criação de funções úteis para o projeto. | Excelente |
+| Vinicius de Sousa Saturnino  | Criação do script para extração e filtragem dos dados no arquivo csv e montagem do arquivo prolog com a base usada no projeto. Implementação da recomendação por aleatoriedade  | Excelente |
 
 ## Outros 
 Quaisquer outras informações sobre o projeto podem ser descritas aqui.
