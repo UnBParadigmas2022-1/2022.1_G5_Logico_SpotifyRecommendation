@@ -4,9 +4,7 @@
 
 :- (dynamic music/6, genre/1, artist/1).
 
-
-
-
+% show dialog to select a artist
 menu_recommend_by_artist :-
     new(Dialog, dialog('Recomendacao por Artista')),
     send_list(Dialog,
@@ -23,7 +21,7 @@ menu_recommend_by_artist :-
     forall(artist(A), send_list(N1, append, A)),
     send(Dialog, open).
 
-
+% get track list by artist
 recommend_by_artist(Artist) :-
     new(D, dialog('Musicas Recomendadas')),
     findall(Track,
