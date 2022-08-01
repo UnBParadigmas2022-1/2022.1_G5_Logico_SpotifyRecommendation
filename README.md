@@ -18,21 +18,41 @@
 | 180132245  |  Vinicius de Sousa Saturnino | [@viniciussaturnino](https://github.com/viniciussaturnino) |
 
 ## Sobre 
-Esse é um projeto focado na funcionalidade de recomendação de músicas para usuários de acordo com suas preferências. No projeto foi utilizada uma base de dados pública filtrada com informações sobre músicas, artistas e etc.
+Com o intuito de ajudar pessoas a escolher uma música, foi criado o SpotifyRecomendation. O SpotifyRecomendation tarata-se de um projeto focado na recomedação de música para usuários baseado em suas preferências. Neste projeto foi utilizado uma [base da dados pública](https://www.kaggle.com/datasets/zaheenhamidani/ultimate-spotify-tracks-db) filtrada com informações sobre música, artista, gênero, polularidade e etc.
 
 ## Screenshots
-Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
+![menu](src/images/menu.jpeg) <br>
+![recomendacoes](src/images/recomendacoes.jpeg)
 
 ## Instalação 
-**Linguagens**: xxxxxx<br>
-**Tecnologias**: xxxxxx<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
-Gifs animados e outras ilustrações são bem-vindos!
+**Linguagens**: Prolog<br>
+**Tecnologias**: SWI-Prolog v8.4.3<br>
+**Pré-requisitos** para rodar o SpotifyRecomendation:
+- Docker
+- SWI-Prolog v8.4.3
+**Execução**: Na raiz do projeto execute:
+```
+docker-compose run generator
+```
+Após finalizar, execute o comando:
+```
+swipl -s src/main.pl
+```
+Dentro do console digite:
+```
+start.
+```
 
 ## Uso 
-Explique como usar seu projeto.
-Procure ilustrar em passos, com apoio de telas do software.
+Para utilizar o SpotifyRecomendation é extremamente simples, após rodar o projeto aparecerá um menu com as seguintes opções: <br>
+![menu](src/images/menu.jpeg) <br> <br>
+Podendo optar por uma recomendação aleatória, geral, por artista, por daçabilidade, por gênero e populariade. <br>
+![artista](src/images/artista.jpeg) <br>
+![genero](src/images/genero.jpeg) <br> <br>
+
+Após escolher a recomendação desejada, basta clicar no botão "Enter" e uma recomedação será gerada. <br>
+
+![lista_recomendacao](src/images/lista_recomendacao.jpeg) <br>
 
 ## Vídeo
 Adicione 1 ou mais vídeos com a execução do projeto.
@@ -58,5 +78,4 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui.
 (iV) Trabalhos Futuros.
 
 ## Fontes
-Referencie, adequadamente, as referências utilizadas.
-Indique ainda, fontes de leitura complementares.
+- Fonte da base de dados utilizada https://www.kaggle.com/datasets/zaheenhamidani/ultimate-spotify-tracks-db
