@@ -2,61 +2,82 @@
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T01 <br>
 **Nro do Grupo**: 05<br>
-**Paradigma**: Logico<br>
+**Paradigma**: Lógico<br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| 180041592  |  Denys Rogeres Leles dos Santos |
-| 180113259  |  Felipe Correia Andrade |
-| 180103580  |  Jonathan Jorge Barbosa Oliveira|
-| 180125885  |  Lucas Melo dos Santos |
-| 180127535  |  Mateus Brandao Teixeira |
-| 180106821  |  Mateus Gomes do Nascimento |
-| 180127641  |  Matheus Afonso de Souza |
-| 180138545  |  Thiago Mesquita Peres Nunes de Carvalho |
-| 180132245  |  Vinicius de Sousa Saturnino |
+|Matrícula | Aluno | Github |
+| -- | -- | -- |
+| 180041592  |  Denys Rogeres Leles dos Santos | [@andrelucasf](https://github.com/andrelucasf) |
+| 180113259  |  Felipe Correia Andrade | [@Percon12](https://github.com/Percon12) |
+| 180103580  |  Jonathan Jorge Barbosa Oliveira|  [@Jonathan-Oliveira](https://github.com/Jonathan-Oliveira) |
+| 180125885  |  Lucas Melo dos Santos | [@luucas-melo](https://github.com/luucas-melo) |
+| 180127535  |  Mateus Brandao Teixeira | [@mateusbrandaot](https://github.com/mateusbrandaot) |
+| 180106821  |  Mateus Gomes do Nascimento | [@matgomes21](https://github.com/matgomes21) |
+| 180127641  |  Matheus Afonso de Souza | [@Matheusafonsouza](https://github.com/Matheusafonsouza) |
+| 180138545  |  Thiago Mesquita Peres Nunes de Carvalho | [@thiagompc](https://github.com/thiagompc) |
+| 180132245  |  Vinicius de Sousa Saturnino | [@viniciussaturnino](https://github.com/viniciussaturnino) |
 
 ## Sobre 
-Esse é um projeto focado na funcionalidade de recomendação de músicas para usuários de acordo com suas preferências. No projeto foi utilizada uma base de dados pública filtrada com informações sobre músicas, artistas e etc.
+Com o intuito de ajudar pessoas a escolher uma música, foi criado o SpotifyRecomendation. O SpotifyRecomendation tarata-se de um projeto focado na recomedação de música para usuários baseado em suas preferências. Neste projeto foi utilizado uma [base da dados pública](https://www.kaggle.com/datasets/zaheenhamidani/ultimate-spotify-tracks-db) filtrada com informações sobre música, artista, gênero, polularidade e etc.
 
 ## Screenshots
-Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
+![menu](src/images/menu.jpeg) <br>
+![recomendacoes](src/images/recomendacoes.jpeg)
 
 ## Instalação 
-**Linguagens**: xxxxxx<br>
-**Tecnologias**: xxxxxx<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
-Gifs animados e outras ilustrações são bem-vindos!
+**Linguagens**: Prolog<br>
+**Tecnologias**: SWI-Prolog v8.4.3<br>
+**Pré-requisitos** para rodar o SpotifyRecomendation:
+- Docker
+- SWI-Prolog v8.4.3
+**Execução**: Na raiz do projeto execute:
+```
+docker-compose run generator
+```
+Após finalizar, execute o comando:
+```
+swipl -s src/main.pl
+```
+Dentro do console digite:
+```
+start.
+```
 
 ## Uso 
-Explique como usar seu projeto.
-Procure ilustrar em passos, com apoio de telas do software.
+Para utilizar o SpotifyRecomendation é extremamente simples, após rodar o projeto aparecerá um menu com as seguintes opções: <br>
+![menu](src/images/menu.jpeg) <br> <br>
+Podendo optar por uma recomendação aleatória, geral, por artista, por daçabilidade, por gênero e populariade. <br>
+![artista](src/images/artista.jpeg) <br>
+![genero](src/images/genero.jpeg) <br> <br>
+
+Após escolher a recomendação desejada, basta clicar no botão "Enter" e uma recomedação será gerada. <br>
+
+![lista_recomendacao](src/images/lista_recomendacao.jpeg) <br>
 
 ## Vídeo
-Adicione 1 ou mais vídeos com a execução do projeto.
-Procure: 
-(i) Introduzir o projeto;
-(ii) Mostrar passo a passo o código, explicando-o, e deixando claro o que é de terceiros, e o que é contribuição real da equipe;
-(iii) Apresentar particularidades do Paradigma, da Linguagem, e das Tecnologias, e
-(iV) Apresentar lições aprendidas, contribuições, pendências, e ideias para trabalhos futuros.
-OBS: TODOS DEVEM PARTICIPAR, CONFERINDO PONTOS DE VISTA.
-TEMPO: +/- 15min
+[![Apresentacao](https://img.youtube.com/vi/x2oa-ozaf7U)](https://youtu.be/x2oa-ozaf7U)<br>
+[Link vídeo](https://youtu.be/x2oa-ozaf7U)
 
 ## Participações
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
-| Fulano  |  Programação dos Fatos da Base de Conhecimento Lógica | Boa |
+| Denys Rogeres Leles dos Santos  | Contribuição na documentação do projeto, participação no vídoe de entrega e colaboração na escolha do projeto  | Regular |
+| Felipe Correia Andrade  |  Implementação do menu e no arquivo de funcs, ajuda na organização inicial do projeto com ideias e contribuição na documentação | Excelente |
+| Jonathan Jorge Barbosa Oliveira  | Implementação das recomendações por artistas e geral | Excelente |
+| Lucas Melo dos Santos  | Implementação de interface gráfica, recomendações por genero, recomendação geral e funções uteis para inserir conteúdo na interface    | Excelente |
+| Mateus Brandao Teixeira  |  Implementação do menu e no arquivo de funcs e ajuda na organização inicial do projeto com ideias | Excelente |
+| Mateus Gomes do Nascimento  | Implementação das recomendações por popularidade, dançabilidade, geral e por duração, e criação de funções úteis para o projeto. | Excelente |
+| Matheus Afonso de Souza  | Criação do script para extração e filtragem dos dados no arquivo csv e montagem do arquivo prolog com a base usada no projeto. Implementação da recomendação por aleatoriedade  | Excelente |
+| Thiago Mesquita Peres Nunes de Carvalho  | Implementação das recomendações por popularidade, dançabilidade, geral e por duração, e criação de funções úteis para o projeto. | Excelente |
+| Vinicius de Sousa Saturnino  | Criação do script para extração e filtragem dos dados no arquivo csv e montagem do arquivo prolog com a base usada no projeto. Implementação da recomendação por aleatoriedade  | Excelente |
 
-## Outros 
-Quaisquer outras informações sobre o projeto podem ser descritas aqui.
-(i) Lições Aprendidas;
-(ii) Percepções;
-(iii) Contribuições e Fragilidades, e
-(iV) Trabalhos Futuros.
+## Melhorias
+Melhorias que poderiam ser implementadas:
+- Cadastrar usuário e recomendar pelo seu histórico 
+- Exportar músicas selecionadas
+- Adicionar mais informações sobre a música na interface
+- Melhorar a interface (mudar cor, tamanho mínimo da tela, etc)
 
 ## Fontes
-Referencie, adequadamente, as referências utilizadas.
-Indique ainda, fontes de leitura complementares.
+- Fonte da base de dados utilizada https://www.kaggle.com/datasets/zaheenhamidani/ultimate-spotify-tracks-db
