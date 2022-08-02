@@ -62,11 +62,11 @@ Após escolher a recomendação desejada, basta clicar no botão "Enter" e uma r
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
-| Denys Rogeres Leles dos Santos  |   |  |
-| Felipe Correia Andrade  |   |   |
+| Denys Rogeres Leles dos Santos  | Contribuição na documentação do projeto, participação no vídoe de entrega e colaboração na escolha do projeto  | Regular |
+| Felipe Correia Andrade  |  Implementação do menu e no arquivo de funcs, ajuda na organização inicial do projeto com ideias e contribuição na documentação | Excelente |
 | Jonathan Jorge Barbosa Oliveira  | Implementação das recomendações por artistas e geral | Excelente |
-| Lucas Melo dos Santos  |Implementação de interface gráfica, recomendações por genero, recomendação geral e funções uteis para inserir conteúdo na interface    | Excelente |
-| Mateus Brandao Teixeira  |   |  |
+| Lucas Melo dos Santos  | Implementação de interface gráfica, recomendações por genero, recomendação geral e funções uteis para inserir conteúdo na interface    | Excelente |
+| Mateus Brandao Teixeira  |  Implementação do menu e no arquivo de funcs e ajuda na organização inicial do projeto com ideias | Excelente |
 | Mateus Gomes do Nascimento  | Implementação das recomendações por popularidade, dançabilidade, geral e por duração, e criação de funções úteis para o projeto. | Excelente |
 | Matheus Afonso de Souza  | Criação do script para extração e filtragem dos dados no arquivo csv e montagem do arquivo prolog com a base usada no projeto. Implementação da recomendação por aleatoriedade  | Excelente |
 | Thiago Mesquita Peres Nunes de Carvalho  | Implementação das recomendações por popularidade, dançabilidade, geral e por duração, e criação de funções úteis para o projeto. | Excelente |
